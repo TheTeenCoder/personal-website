@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Thomas Jouaville",
   "private": true,
-  "homepage": "https://theteencoder.github.io/personal-website/",
+  "homepage": "https://theteencoder.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
