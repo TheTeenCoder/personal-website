@@ -26,8 +26,6 @@ export const PROJECT_3 = `
   The Project is not in production yet. 
 `;
 
-
-
 export const SERVICES_INTRO = () => {
   return (
     <p>
@@ -42,7 +40,6 @@ export const SERVICES_INTRO = () => {
   );
 };
 
-
 export const SERVICES_HELPYOU = `
   With my flexible schedules and coding expertise, I can help develop websites or 
   applications that can help reach your audience online 🌎. Let me help you create
@@ -52,20 +49,30 @@ export const SERVICES_HELPYOU = `
 export const SERVICES_WHY = () => {
   return (
     <ol className="text-sm flex flex-col space-y-3 max-w-lg">
-      <li>1. Your website will help establish your brand as it conveys professionalism.</li>
-      <li>2. Reach potential customers from the internet, and build a strong community.</li>
-      <li>3. Showcase and get people actually <strong>EXCITED</strong> about your product.</li>
-      <li>4. With a website, customer service and announcements have never been easier.</li>
+      <li>
+        1. Your website will help establish your brand as it conveys
+        professionalism.
+      </li>
+      <li>
+        2. Reach potential customers from the internet, and build a strong
+        community.
+      </li>
+      <li>
+        3. Showcase and get people actually <strong>EXCITED</strong> about your
+        product.
+      </li>
+      <li>
+        4. With a website, customer service and announcements have never been
+        easier.
+      </li>
       <li>5. Generate leads and sales while your asleep 💤.</li>
-
-
     </ol>
-  )
-}
+  );
+};
 
 export const SERVICES_SKILLS = [
-  { skill: "HTML + CSS", level: 100 },
-  { skill: "React", level: 90 },
-  { skill: "Server Development", level: 70 },
-  { skill: "Python", level: 40 },
+  { skill: "HTML + CSS", level: 100, color: 'red', duration: 1 },
+  { skill: "React", level: 90, color: 'indigo', duration: 1.5},
+  { skill: "Server Development", level: 70, color: 'pink', duration: 2 },
+  { skill: "Python", level: 40, color: 'green' , duration: 2.5},
 ];

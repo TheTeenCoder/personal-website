@@ -9,12 +9,17 @@ const Home = () => {
   const [list] = useState([
     "dreamer 💭",
     "basketball player 🏀",
-    "creator",
+    "creator 🎥",
     "coder 💻",
     "pasta lover 🍝",
     "minimalist 🔹",
+    "sushi connoisseur 🍣",
+    "ENFJ ❤️",
+    "writer ✍️",
+    "gamer 🕹",
+    "producitivity chaser 📗"
   ]);
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(Math.floor(Math.random()*list.length));
 
   useEffect(() => {
     let timer = setTimeout(() => {

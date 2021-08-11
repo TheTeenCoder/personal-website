@@ -3,10 +3,13 @@ import React from "react";
 
 const ProgressBar = (props) => {
   return (
-    <div className="relative pt-1 mt-5">
-      <motion.h1  className="text-sm sm:text-md md:text-lg ">
-        {props.title}
-      </motion.h1>
+    <motion.div
+      className="relative pt-1 mt-5"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: props.duration || 1, duration: 0.5 }}
+    >
+      <h1 className="text-sm sm:text-md md:text-lg ">{props.title}</h1>
 
       <div
         className={`overflow-hidden h-2 mb-4 text-xs flex rounded bg-${
@@ -20,7 +23,7 @@ const ProgressBar = (props) => {
           }-700`}
         ></div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

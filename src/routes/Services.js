@@ -37,7 +37,12 @@ const Services = () => {
             <SERVICES_INTRO />
             {SERVICES_SKILLS.map((element) => {
               return (
-                <ProgressBar width={element.level} title={element.skill} />
+                <ProgressBar
+                  width={element.level}
+                  title={element.skill}
+                  color={element.color}
+                  duration={element.duration}
+                />
               );
             })}
           </Section>
