@@ -1,7 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import "animate.css/animate.min.css";
 import Section from "../components/Section";
 import { WHO_AM_I } from "../content/content";
 import Navbar from "../components/Navbar";
@@ -15,7 +14,7 @@ const About = () => {
         transition={{ duration: 1 }}
       >
         <div className="flex flex-col justify-center items-center h-screen">
-          <Navbar projects home />
+          <Navbar projects home services />
           <motion.div
             whileHover={{
               rotate: 5,

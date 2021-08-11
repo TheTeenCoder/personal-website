@@ -6,6 +6,7 @@ import About from "./routes/About";
 
 import "./styles/App.css";
 import Projects from "./routes/Projects";
+import Services from "./routes/Services";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       </Route>
       <Route exact path="/projects">
         <Projects />
+      </Route>
+      <Route exact path="/services">
+        <Services />
       </Route>
     </Switch>
   );

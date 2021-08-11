@@ -48,7 +48,7 @@ const Home = () => {
         <span className="md:text-4xl text-gray-600 text-2xl">
           I am a <span className="font-bold font-mono">{list[index]}</span>
         </span>
-        <Navbar about projects />
+        <Navbar about projects services />
       </div>
     </motion.div>
   );

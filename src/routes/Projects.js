@@ -17,7 +17,7 @@ const Projects = () => {
         transition={{ duration: 1 }}
       >
         <div className="flex flex-col justify-center items-center h-screen p-5">
-          <Navbar about home />
+          <Navbar about home services/>
           <motion.div
             whileHover={{
               rotate: 5,
