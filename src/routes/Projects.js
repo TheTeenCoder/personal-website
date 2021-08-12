@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "animate.css/animate.min.css";
 import Section from "../components/Section";
-import { PROJECTS_INTRO, PROJECT_1, PROJECT_2 } from "../content/content";
+import { PROJECTS_INTRO, PROJECT_1, PROJECT_2, PROJECT_3 } from "../content/content";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 
@@ -36,7 +36,7 @@ const Projects = () => {
             <div className="flex flex-col space-y-2 max-w-xl">
               <Card link="https://check-in-prj2.vercel.app/" title="SLMCS Check-in System">{PROJECT_1}</Card>
               <Card link="/" title="Personal Website">{PROJECT_2}</Card>
-              <Card title="PAAS">{PROJECT_2}</Card>
+              <Card title="PAAS">{PROJECT_3}</Card>
             </div>
           </div>
         </div>
